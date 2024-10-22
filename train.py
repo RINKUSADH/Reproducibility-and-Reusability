@@ -36,7 +36,7 @@ def evaluate_model(model, X_test, y_test):
     print(f"Model evaluation completed. Mean Squared Error: {mse:.2f}")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Step 1: Load dataset
     df = load_dataset()
 
